@@ -1,0 +1,19 @@
+.stats {
+  .grid-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    align-items: center;
+    padding: 12px 0;
+    gap: 15px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .chart {
+    // width: calc(100vw - 310px);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 78vh;
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,78 @@
+aside {
+  position: static;
+  top: 0;
+  min-width: 320px;
+  height: 100vh;
+  border-radius: 25px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 4px solid rgba(156, 156, 156, 0.419);
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    gap: 6px;
+
+    img {
+      width: 36px;
+    }
+
+    p {
+      font-weight: 700;
+    }
+  }
+
+  .list {
+    border-top: 1px solid #515966;
+    margin-top: 40px;
+    padding-top: 40px;
+
+    &-item {
+      padding: 10px 14px;
+      width: 100%;
+      color: #515966;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-bottom: 8px;
+      &:hover {
+        background: rgba(154, 165, 177, 0.735);
+        color: #fff;
+      }
+    }
+  }
+
+  .settings {
+    position: absolute;
+    bottom: 50px;
+    margin: 20px auto;
+    width: 80%;
+    cursor: pointer;
+    .avatar {
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      margin: 10px auto;
+      display: block;
+      border: 2px solid #cceabb;
+    }
+    h3 {
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+}
+
+.active {
+  background: #000000;
+  color: #fff !important;
+}

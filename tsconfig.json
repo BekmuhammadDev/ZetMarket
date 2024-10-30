@@ -1,0 +1,35 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components": ["src/components/index.tsx"],
+      "@ui": ["src/components/ui/index.tsx"],
+      "@charts": ["src/components/charts/index.tsx"],
+
+      "@services": ["src/services/*"],
+      "@utils": ["src/utils/index.ts"], 
+      "@hooks": ["src/hooks/*"],
+      "@constants": ["src/constants/index.data"],
+      "@ttypes": ["src/types/index.ts"],
+      "@context": ["src/context/*"],
+      "@router": ["src/router/index.tsx"],
+      "@layouts": ["src/app/index.tsx"],
+      "@pages": ["src/pages/index.tsx"],
+      "@store": ["src/stores/store.ts"],
+      "@stores": ["src/stores/store.ts"],
+
+      "@assets": ["src/assets/*"],
+      "@styles": ["src/assets/styles/*"],
+      "@images": ["src/assets/images/*"],
+      "@icnos": ["src/assets/icnos/*"],
+      "@theme": ["src/theme/index.ts"],
+
+    },
+  }
+}
