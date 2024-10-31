@@ -1,9 +1,18 @@
-import { FC } from 'react';
-import { Outlet } from 'react-router';
+import { FC, useEffect } from 'react';
+import { Outlet, useLocation } from 'react-router';
 import { Aside, Header } from '@components';
+import { setSearchAction } from '../../stores/search-slice';
 import './_style.scss';
+import { useDispatch } from 'react-redux';
 
 export const Dashboard: FC = () => {
+  const dispatch = useDispatch();
+  const { pathname }: { pathname: any } = useLocation();
+
+  useEffect(() => {
+    dispatch(setSearchAction(pathname));
+  }, [pathname]);
+
   return (
     <>
       <main>

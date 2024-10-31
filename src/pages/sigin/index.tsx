@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
-import { Button, Input, Checkbox, Form } from 'antd';
+import { Button, Input, Form } from 'antd';
 import { FormProps } from 'antd';
 
 import './_style.scss';
