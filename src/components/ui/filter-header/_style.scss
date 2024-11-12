@@ -1,0 +1,16 @@
+.filter{
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding: 0 30px;
+
+    &_actions{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}

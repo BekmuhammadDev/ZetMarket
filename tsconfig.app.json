@@ -28,7 +28,7 @@
       "@assets": ["src/assets/*"],
       "@styles": ["src/assets/styles/*"],
       "@images": ["src/assets/images/*"],
-      "@icnos": ["src/assets/icnos/*"],
+      "@icons": ["src/assets/icons/index.ts"],
       "@theme": ["src/theme/index.ts"],
 
     },

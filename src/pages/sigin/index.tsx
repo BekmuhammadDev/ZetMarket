@@ -1,24 +1,31 @@
 import { FC } from 'react';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import { Button, Input, Form } from 'antd';
-import { FormProps } from 'antd';
-
+import type { FormProps } from 'antd';
+import { useAuth } from '../../services/auth';
 import './_style.scss';
 
 const index: FC = () => {
   type FieldType = {
-    phone?: string;
-    password?: string;
+    username: string;
+    password: string;
   };
 
-  const onFinish: FormProps<FieldType>['onFinish'] = (values) => {
-    console.log('Success:', values);
-  };
-
+ 
   const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (
     errorInfo
   ) => {
     console.log('Failed:', errorInfo);
+  };
+
+
+  const onFinish: FormProps<FieldType>['onFinish'] = (values: FieldType) => {
+    useAuth.signin(values).then((res:any)=>{
+      localStorage.setItem('token', res.data.token);
+      if (res.status ===200) {
+        window.location.href = '/';
+      }
+    })
   };
 
   return (
@@ -38,7 +45,7 @@ const index: FC = () => {
             autoComplete="off"
           >
             <Form.Item<FieldType>
-              name="phone"
+              name="username"
               rules={[
                 { required: true, message: 'Please input your username!' },
               ]}

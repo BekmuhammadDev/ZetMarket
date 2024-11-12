@@ -11,3 +11,18 @@ export type TCardPropsType = {
   value: number | string;
   color: string;
 };
+
+export interface ITableDataType {
+  key: React.Key | string | number;
+  id: string | number;
+  date:string;
+  fullname: string;
+  phonenumber: string;
+  productname: string;
+  quantity: number;
+  totalprice: number;
+  status: string;
+  paymentmethod: string;
+  age: number;
+  address: string;
+}

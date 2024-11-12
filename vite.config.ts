@@ -25,6 +25,7 @@ export default defineConfig({
       "@stores": path.resolve(__dirname, "./src/stores/index.ts"),
 
       "@images": path.resolve(__dirname, "./src/assets/images"),
+      "@icons": path.resolve(__dirname, "./src/assets/icons/index.ts"),
       "@fonts": path.resolve(__dirname, "./src/assets/fonts"),
       "@assets": path.resolve(__dirname, "./src/assets/*"),
       "@theme": path.resolve(__dirname, "./src/theme/index.ts*"),
