@@ -204,7 +204,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '2',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -218,7 +218,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '3',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -232,7 +232,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '4',
     fullname: 'MuhammadRahmon Aripov ',
     address: 'Tashkent No. 1 Ravnaq',
     phonenumber: '+998912345678',
@@ -246,7 +246,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '5',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -260,7 +260,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '6',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -274,7 +274,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '7',
     fullname: 'MuhammadRahmon Aripov ',
     address: 'Tashkent No. 1 Ravnaq',
     phonenumber: '+998912345678',
@@ -288,7 +288,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '8',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -302,7 +302,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '9',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -316,7 +316,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '10',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -330,7 +330,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '11',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -344,7 +344,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '12',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
@@ -358,7 +358,7 @@ export const TableData = [
     id: '#123',
   },
   {
-    key: '1',
+    key: '13',
     fullname: 'Jasur Boynazarov',
     address: 'New York No. 1 Lake Park',
     phonenumber: '+998912345678',
