@@ -6,7 +6,7 @@ import {
   OrderCanceld,
   OrderCompleted,
   OrderNew,
-  SignIn,
+  Signin,
   Stats,
 } from '@pages';
 
@@ -44,7 +44,7 @@ const router = [
     children: [
       {
         path: '/login',
-        element: <SignIn />,
+        element: <Signin />,
       },
     ],
   },

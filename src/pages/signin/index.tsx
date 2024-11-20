@@ -20,11 +20,12 @@ const index: FC = () => {
 
 
   const onFinish: FormProps<FieldType>['onFinish'] = (values: FieldType) => {
-    useAuth.signin(values).then((res:any)=>{
-      localStorage.setItem('token', res.data.token);
-      if (res.status ===200) {
-        window.location.href = '/';
-      }
+    useAuth.signin(values).then((res:any) =>{
+    localStorage.setItem('token', res.data.token);
+    if (res.status === 200 ) {
+      window.location.href='/';
+    }
+      
     })
   };
 

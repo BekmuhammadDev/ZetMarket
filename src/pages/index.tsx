@@ -2,7 +2,7 @@ import OrderNew from './orders-new';
 import OrderCompleted from './order-completed';
 import OrderCanceld from './order-canceld';
 import Leads from './leads';
-import SignIn from './sigin';
+import Signin from './signin';
 import Stats from './stat';
 
-export { OrderNew, OrderCompleted, OrderCanceld, Leads, SignIn, Stats };
+export { OrderNew, OrderCompleted, OrderCanceld, Leads, Signin, Stats };
