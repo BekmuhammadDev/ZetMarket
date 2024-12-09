@@ -9,13 +9,13 @@ export const Dashboard: FC = () => {
   const dispatch = useDispatch();
   const { pathname }: { pathname: any } = useLocation();
 
-  useEffect(() => {
-    dispatch(setSearchAction(pathname));
-    if (!localStorage.getItem('token')?.trim()){
-      window.location.href = '/login';
-      return;
-    }
-  }, [pathname]);
+  // useEffect(() => {
+  //   dispatch(setSearchAction(pathname));
+  //   if (!localStorage.getItem('token')?.trim()){
+  //     window.location.href = '/login';
+  //     return;
+  //   }
+  // }, [pathname]);
 
   return (
     <>
