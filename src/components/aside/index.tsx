@@ -20,7 +20,7 @@ const index: FC = () => {
   return (
     <aside style={asideStyle}>
       <Link to="/" className="logo">
-        <img src="../../../public/z.png" alt="logo" />
+        <img src="../../../public/zetmarket.png" alt="logo" />
         <p>ZETNARKET</p>
       </Link>
       <ul className="list">
